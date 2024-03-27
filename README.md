@@ -64,32 +64,15 @@ The production build will generate client and server modules by running both cli
 npm run build # or `yarn build`
 ```
 
-## Fastify Server
+## Node Server
 
-This app has a minimal [Fastify server](https://fastify.io/) implementation. After running a full build, you can preview the build using the command:
+This app has a minimal zero-dependencies server. Using the built-in `http.createServer` API.
+This should be faster and less overhead than Express or other frameworks.
 
-```
-npm run serve
-```
-
-Then visit [http://localhost:3000/](http://localhost:3000/)
-
-## Fastify Server
-
-This app has a minimal [Fastify server](https://fastify.io/) implementation. After running a full build, you can preview the build using the command:
+After running a full build, you can preview the build using the command:
 
 ```
 npm run serve
 ```
 
-Then visit [http://localhost:3000/](http://localhost:3000/)
-
-## Fastify Server
-
-This app has a minimal [Fastify server](https://fastify.io/) implementation. After running a full build, you can preview the build using the command:
-
-```
-npm run serve
-```
-
-Then visit [http://localhost:3000/](http://localhost:3000/)
+Then visit [http://localhost:3004/](http://localhost:3004/)
