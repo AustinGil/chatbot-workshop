@@ -22,7 +22,7 @@
       "~/*": ["./src/*"]
     },
   },
-  "files": ["./.eslintrc.cjs"],
+  "files": ["eslint.config.cjs"],
   "include": ["src", "./*.d.ts", "./*.config.ts"],
   "exclude": ["stages"]
 }
